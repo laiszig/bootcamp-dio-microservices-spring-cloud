@@ -19,7 +19,7 @@ ext {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-	implementation group: 'redis.clients', name: 'jedis', version: '3.6.3'//Resolve o problema de classe não encontrada
+	implementation group: 'redis.clients', name: 'jedis', version: '3.6.3'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
